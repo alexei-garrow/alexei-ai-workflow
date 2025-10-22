@@ -52,3 +52,15 @@ This document is for the project planning phase. Here, we will define the projec
 
 **Approved by:** (user's name)
 **Date:** (date)
+
+---
+
+## Adapting for Existing Projects
+
+If you are using this workflow for a project that is already in progress, you can "reverse-engineer" this planning document by following these steps:
+
+1.  **Analyze the existing codebase:** Read through the code to understand its purpose, features, and architecture.
+2.  **Document the project goals:** Based on your analysis, fill out the "Project Goals" section.
+3.  **Define the scope:** Document the existing features in the "In Scope" section. You can also identify features that you plan to add in the future.
+4.  **Identify the MVP:** If the project is already an MVP, document its features. If not, define what would constitute an MVP.
+5.  **Document the technology stack:** Fill out the "Technology Stack" table with the technologies that are currently being used in the project.

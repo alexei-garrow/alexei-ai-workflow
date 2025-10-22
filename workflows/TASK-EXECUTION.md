@@ -29,9 +29,20 @@ This document is for breaking down and executing individual tasks. For each task
 
 (The AI will propose a plan to implement the task. The plan should be detailed enough for the user to understand what the AI is going to do.)
 
-1.  
+**Goal:** (The goal of this plan)
+
+**Steps:**
+1.  (Step 1)
+2.  (Step 2)
+...
+
+**Verification:** (How the AI will verify that the task is complete)
 
 ---
+
+### QA
+
+(Before approving the plan, refer to the `QA.md` protocol and ask the relevant questions.)
 
 ### User Approval
 
@@ -39,3 +50,4 @@ This document is for breaking down and executing individual tasks. For each task
 
 **Approved by:** (user's name)
 **Date:** (date)
+

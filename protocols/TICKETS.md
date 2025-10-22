@@ -24,6 +24,14 @@ The workflow is as follows:
 4.  **The AI executes the plan:** The AI will execute the plan.
 5.  **The user reviews the work:** The user will review the work and provide feedback.
 
+## Ticket Template
+
+### Ticket #[Ticket Number]: [Ticket Title]
+
+*   **Status:** (Backlog | To Do | In Progress | Done)
+*   **Description:** (A brief description of the task)
+*   **Link to `TASK-EXECUTION.md`:** (Link to the corresponding task execution file)
+
 ## Tickets
 
 *   **Ticket #1:** Create the initial project structure and workflow files.
