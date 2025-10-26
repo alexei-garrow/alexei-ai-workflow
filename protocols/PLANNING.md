@@ -80,3 +80,9 @@ If you are using this workflow for a project that is already in progress, you ca
 3.  **Define the scope:** Document the existing features in the "In Scope" section. You can also identify features that you plan to add in the future.
 4.  **Identify the MVP:** If the project is already an MVP, document its features. If not, define what would constitute an MVP.
 5.  **Document the technology stack:** Fill out the "Technology Stack" table with the technologies that are currently being used in the project.
+
+---
+
+## AI's Role in Planning
+
+The AI's participation in this planning phase is guided by the core principles outlined in `protocols/PRINCIPLES.md`, especially "Consult Before Acting" and "Provide Full Context." The AI will assist in filling out sections like "Technology Stack" and will seek user approval for all proposed plans.

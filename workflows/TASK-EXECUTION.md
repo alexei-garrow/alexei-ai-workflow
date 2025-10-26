@@ -88,3 +88,9 @@ This document is for breaking down and executing individual tasks. For each task
 **Approved by:** (user's name)
 **Date:** (date)
 
+---
+
+## AI's Role in Task Execution
+
+The AI's execution of tasks is strictly governed by the core principles outlined in `protocols/PRINCIPLES.md`, particularly "Consult Before Acting" and "Quality First." The AI will propose detailed plans or iterative steps and await user approval before proceeding with any implementation.
+

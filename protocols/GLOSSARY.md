@@ -16,8 +16,32 @@ This document contains a list of terms, acronyms, and concepts that are specific
 
 ## Project Terms
 
-*(Project-specific terms will be added here as they arise.)*
+*(Example terms - replace with your project's specific terms)*
+
+### ADR (Architecture Decision Record)
+
+*   **Definition:** A document that captures a significant architectural decision, its context, and consequences.
+*   **Context:** Used to document key technical choices in the `decisions/` directory.
+*   **Example:** See `decisions/ADR-TEMPLATE.md`.
+
+### MVP (Minimum Viable Product)
+
+*   **Definition:** The smallest set of features required for the first release of a product.
+*   **Context:** Defined in `protocols/PLANNING.md` to focus initial development efforts.
+*   **Example:** Our MVP includes user authentication and basic data display.
 
 ## Technology Terms
 
-*(Terms related to the specific technologies and libraries we use will be added here as they arise.)*
+*(Example terms - replace with your project's specific technology terms)*
+
+### CI/CD (Continuous Integration/Continuous Deployment)
+
+*   **Definition:** A set of practices that enable teams to deliver code changes more frequently and reliably.
+*   **Context:** Our automation strategy is outlined in `protocols/CI-CD.md`.
+*   **Example:** Implementing automated tests and deployments via GitHub Actions.
+
+### Kanban
+
+*   **Definition:** A visual system for managing work as it moves through a process.
+*   **Context:** Used to track task progress in `protocols/KANBAN.md`.
+*   **Example:** Moving a ticket from "To Do" to "In Progress" on the Kanban board.

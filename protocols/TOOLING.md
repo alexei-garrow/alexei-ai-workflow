@@ -4,14 +4,16 @@ This document records the specific tools and libraries chosen for this project. 
 
 ---
 
+> **Note:** The following table provides *examples* of tools. These should be replaced with the actual tools and versions used in your project.
+
 | Category | Tool / Library | Version | Reason & Configuration Notes |
 | :--- | :--- | :--- | :--- |
-| **Code Formatter** | (e.g., Prettier) | | (e.g., Using default configuration via `.prettierrc`) |
-| **Linter** | (e.g., ESLint) | | (e.g., Using `eslint-config-airbnb` with minor adjustments) |
-| **CI/CD** | (e.g., GitHub Actions) | | (e.g., See `.github/workflows/main.yml`) |
-| **API Testing** | (e.g., Postman, Jest) | | (e.g., Jest used for automated integration tests) |
-| **E2E Testing** | (e.g., Cypress) | | |
-| **Cloud Provider** | (e.g., Vercel, AWS) | | |
-| **Package Manager**| (e.g., npm, yarn, pip) | | |
+| **Code Formatter** | Prettier (Example) | ^2.0.0 | Standardized formatting for consistency. |
+| **Linter** | ESLint (Example) | ^7.0.0 | Catches errors and enforces code style. |
+| **CI/CD** | GitHub Actions (Example) | N/A | Automates build, test, and deployment workflows. |
+| **API Testing** | Jest (Example) | ^27.0.0 | Unit and integration testing for API endpoints. |
+| **E2E Testing** | Cypress (Example) | ^9.0.0 | End-to-end testing for user flows. |
+| **Cloud Provider** | AWS (Example) | N/A | Scalable cloud infrastructure. |
+| **Package Manager**| npm (Example) | ^8.0.0 | Manages project dependencies. |
 
 *(This table should be updated whenever a new tool is added or a significant change is made to the project's tooling.)*
