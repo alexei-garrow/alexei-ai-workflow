@@ -61,27 +61,3 @@ graph TD
 ```
 
 We can use this for sequence diagrams, entity relationship diagrams, and more to visually communicate our ideas.
-
----
-
-## Temporary Mermaid ERD Example
-
-Here is an example of what a simple Entity Relationship Diagram looks like using Mermaid. It defines two entities, `USER` and `POST`, and the relationship between them.
-
-```mermaid
-erDiagram
-    USER {
-        int id PK
-        string name
-        string email
-    }
-
-    POST {
-        int id PK
-        string title
-        string content
-        int user_id FK
-    }
-
-    USER ||--o{ POST : "writes"
-```
