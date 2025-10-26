@@ -35,6 +35,7 @@ This repository provides a set of templates to guide our development process. He
 
 ### Project Planning & Tracking
 
+*   **`protocols/BRAINSTORMING.md`**: A guide to help brainstorm and define new project ideas.
 *   **`protocols/PLANNING.md`**: Defines the project's goals, scope, and technology stack.
 *   **`protocols/TICKETS.md`**: A list of all the tasks that need to be done.
 *   **`protocols/KANBAN.md`**: A Kanban board to visualize the status of each task (To Do, In Progress, Done).
