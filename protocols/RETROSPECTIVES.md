@@ -15,4 +15,5 @@ This document is for holding retrospectives to help us continuously improve our 
 *
 ### Action Items
 
+*   (Consider adding new terms or clarifying existing ones in GLOSSARY.md)
 *

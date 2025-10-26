@@ -14,7 +14,7 @@ As the technology evolves, this could be a very good way to go moving forward!
 
 To start using this workflow in your project, follow these steps:
 
-1.  **Clone this repository:** Clone or copy the files from this repository into the root of your project.
+1.  **Clone this repository:** Clone this repository. Then, copy its contents into the root of your project. For example, from your project's root directory, you can use: `cp -R /path/to/cloned/alexei-ai-workflow/* .`
 2.  **Review `protocols/PLANNING.md`:**
     *   **For new projects:** Fill out the `PLANNING.md` document to define your project's goals, scope, and technology stack. Pay special attention to the "Workflow Adoption Strategy" section to set the right level of rigor for your project.
     *   **For existing projects:** Follow the "Adapting for Existing Projects" guide in `PLANNING.md` to document your existing project.

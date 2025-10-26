@@ -23,6 +23,8 @@
 
 (What are the positive and negative consequences of this decision? What are the trade-offs? What new problems might it introduce? This section is critical for understanding the full impact of the decision.)
 
+*   (Consider adding any new terms introduced by this decision to GLOSSARY.md)
+
 ### Positive Consequences
 
 *   

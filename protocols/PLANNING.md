@@ -36,6 +36,8 @@ This document is for the project planning phase. Here, we will define the projec
 
 (To be filled in by the AI, with user approval. The AI will propose a technology stack based on the project goals and scope.)
 
+> **Note:** Specific tooling choices (linters, formatters, CI/CD tools) will be documented in `protocols/TOOLING.md` once the general technology stack is decided.
+
 | Category      | Technology | Reason |
 | :------------ | :--------- | :----- |
 | Frontend      |            |        |

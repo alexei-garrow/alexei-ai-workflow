@@ -49,4 +49,8 @@ For a larger, more complex application, the onboarding process needs to be more 
 
 *   **Project Overview:**
     *   A brief description of the project's architecture and folder structure.
-    *   Links to other key documents in this workflow repository (`PLANNING.md`, `SECURITY.md`, etc.).
+    *   Links to key documents in this workflow repository for a quick overview:
+    *   `PLANNING.md` (Project Goals, Scope, Technology Stack)
+    *   `protocols/project-structure.md` (Overall Directory Structure)
+    *   `GIT-WORKFLOW.md` (Git Branching and Commit Strategy)
+    *   `SECURITY.md` (Security Principles and Checklist)

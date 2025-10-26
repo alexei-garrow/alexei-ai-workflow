@@ -22,6 +22,8 @@ This file is for logging our decisions and for providing explanations and learni
 
 (What other solutions were considered and why were they not chosen?)
 
+**Glossary Terms:** (Any new terms or concepts introduced that should be added to GLOSSARY.md?)
+
 ### 🤓 Learning Corner
 
 **(Optional) Ask any questions you have about this topic. For example:**

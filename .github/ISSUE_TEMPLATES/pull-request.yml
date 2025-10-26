@@ -1,0 +1,42 @@
+name: Pull Request
+description: Propose a change to the codebase
+title: ''
+labels: ''
+assignees: ''
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A clear and concise description of the changes.
+    validations:
+      required: true
+  - type: textarea
+    id: related-ticket
+    attributes:
+      label: Related Ticket
+      description: Link to the corresponding ticket.
+      placeholder: Closes #[Ticket Number]
+    validations:
+      required: true
+  - type: textarea
+    id: changes-made
+    attributes:
+      label: Changes Made
+      description: A list of the changes that were made.
+    validations:
+      required: true
+  - type: textarea
+    id: testing-done
+    attributes:
+      label: Testing Done
+      description: A description of the testing that was done to verify the changes.
+    validations:
+      required: true
+  - type: textarea
+    id: learning-opportunities
+    attributes:
+      label: "🤓 Learning Opportunities"
+      description: "Optional: If there are any interesting techniques, patterns, or decisions in this pull request that are worth highlighting, please mention them here."
+    validations:
+      required: false
