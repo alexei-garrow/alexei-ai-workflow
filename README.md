@@ -47,6 +47,7 @@ This repository provides a set of templates to guide our development process. He
 
 ### Automation & Improvement
 
+*   **`protocols/project-structure.md`**: An overview of the project's directory structure.
 *   **`protocols/GIT-WORKFLOW.md`**: Outlines our Git workflow for branching, committing, and merging code.
 *   **`protocols/CI-CD.md`**: Our strategy for Continuous Integration and Continuous Deployment, which is about automating our build, test, and deployment processes.
 *   **`protocols/RETROSPECTIVES.md`**: A place to hold retrospectives to discuss what went well, what didn't, and how we can improve our workflow.

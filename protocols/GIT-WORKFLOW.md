@@ -33,6 +33,7 @@ This document outlines the Git workflow we will use for this project. This workf
 
 The AI agent will follow this workflow for all code changes it makes. The AI will:
 
-*   Ask the user to create a new branch for a new task.
-*   Propose commit messages for the changes it makes.
-*   Ask the user to open a pull/merge request when a task is complete.
+*   **Branching:** Ask the user to create a new branch for a new task, following the naming convention (`feature/new-auth-flow`, `fix/login-bug`, etc.).
+*   **Committing:** Propose clear and concise commit messages for the changes it makes, adhering to the Conventional Commits specification.
+*   **Pull Requests:** Ask the user to open a pull/merge request when a task is complete, ensuring the pull request template is filled out correctly.
+*   **Merge Conflicts:** If a merge conflict occurs, the AI will not attempt to resolve it automatically. It will inform the user of the conflict and ask for guidance on how to proceed.

@@ -23,3 +23,9 @@ We will strive to automate as much of our workflow as possible, using the `CI-CD
 ## 5. Quality First
 
 We will prioritize the quality of our work, using the `QA.md` protocol to ensure that every task and every release meets our quality standards. We will never sacrifice quality for speed. For example, we will never disable a failing test to make the build pass.
+
+## 6. Communication
+
+*   **Clarity and Conciseness:** We will strive to be clear and concise in our communication.
+*   **Response Times:** We will acknowledge receipt of messages in a timely manner.
+*   **Disagreements:** Disagreements are an opportunity to learn. We will discuss them respectfully and work towards a consensus. If we cannot reach a consensus, the user will make the final decision.

@@ -26,6 +26,8 @@ The workflow is as follows:
 
 ## Ticket Template
 
+> **Note:** For each new ticket, create a new `TASK-EXECUTION.md` file in the `workflows` directory. You can use the `workflows/TASK-EXECUTION-TEMPLATE.md` as a starting point. The new file can be named `workflows/TASK-[Ticket-Number].md`.
+
 ### Ticket #[Ticket Number]: [Ticket Title]
 
 *   **Status:** (Backlog | To Do | In Progress | Done)
