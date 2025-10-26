@@ -25,9 +25,29 @@ This document is for breaking down and executing individual tasks. For each task
     *   **When:** (The action that is taken)
     *   **Then:** (The expected outcome)
 
+### Potential Risks & Edge Cases
+
+(What could go wrong? What are the unhappy paths we need to consider?)
+
+*   
+
+### Security Considerations
+
+(What are the security implications of this task? Refer to `protocols/SECURITY.md`.)
+
+*   
+
 ### AI's Proposed Plan
 
-(The AI will propose a plan to implement the task. The plan should be detailed enough for the user to understand what the AI is going to do.)
+(The AI will propose a plan to implement the task. We can choose one of two approaches depending on the nature of the task.)
+
+**Approach:** (Detailed Plan | Iterative Development)
+
+---
+
+**Option 1: Detailed Plan**
+
+*(Best for well-defined tasks where the requirements are clear.)*
 
 **Goal:** (The goal of this plan)
 
@@ -37,6 +57,23 @@ This document is for breaking down and executing individual tasks. For each task
 ...
 
 **Verification:** (How the AI will verify that the task is complete)
+
+---
+
+**Option 2: Iterative Development**
+
+*(Best for exploratory work, UI/UX tasks, or when requirements are uncertain.)*
+
+**Goal:** (The high-level goal of this task)
+
+**Iteration 1:**
+*   **Goal:** (e.g., Build a minimal UI mockup)
+*   **Steps:** ...
+*   **Outcome:** (e.g., A visual mockup for user review)
+
+**User Feedback & Next Iteration Plan:**
+
+(After each iteration, the user will provide feedback, and we will define the goal for the next iteration.)
 
 ---
 

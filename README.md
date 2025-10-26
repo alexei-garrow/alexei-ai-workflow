@@ -16,10 +16,18 @@ To start using this workflow in your project, follow these steps:
 
 1.  **Clone this repository:** Clone or copy the files from this repository into the root of your project.
 2.  **Review `protocols/PLANNING.md`:**
-    *   **For new projects:** Fill out the `PLANNING.md` document to define your project's goals, scope, and technology stack.
+    *   **For new projects:** Fill out the `PLANNING.md` document to define your project's goals, scope, and technology stack. Pay special attention to the "Workflow Adoption Strategy" section to set the right level of rigor for your project.
     *   **For existing projects:** Follow the "Adapting for Existing Projects" guide in `PLANNING.md` to document your existing project.
 3.  **Create your first ticket:** Add a new task to the `TICKETS.md` file.
 4.  **Start the workflow:** Begin the process of planning, executing, and reviewing your tasks with your AI assistant.
+
+## An Evolving Workflow
+
+This workflow is designed to be adaptable. It can scale with your project from a small prototype to a full production application.
+
+Many of the protocol documents (like `TESTING.md` and `SECURITY.md`) contain different levels of implementation: one for small projects and another for production applications. You can start with a "Minimal" approach and graduate to a "Comprehensive" one when the project's needs change.
+
+This evolution is a conscious choice that we can make during our planning and review cycles, particularly during retrospectives (see `RETROSPECTIVES.md`).
 
 ## The Workflow Files
 

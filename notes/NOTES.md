@@ -32,3 +32,56 @@ This file is for logging our decisions and for providing explanations and learni
 **(My explanation will go here.)**
 
 ---
+
+---
+
+## Formal Decisions (ADRs)
+
+While this file is used for day-to-day notes and learning, all significant architectural decisions are formally documented as **Architecture Decision Records (ADRs)** in the `/decisions` folder.
+
+When we make a key decision, we will create a new ADR file in that directory. We can then reference it here in our daily notes, for example:
+
+> **Topic:** User Authentication Strategy
+> **Our Decision:** We have decided to use JWTs for authentication. See the full context and consequences in [ADR-001](link-to-adr-file).
+
+---
+
+## Visual Documentation with Mermaid.js
+
+For explaining complex architectures, data flows, or logic, we can use Mermaid.js to create diagrams directly within our Markdown files. This is a safe practice, as the Mermaid code is just a block of text and will not break the file. Most modern Markdown viewers, including GitHub's, will render this code as a diagram.
+
+**Example of a flowchart:**
+
+```mermaid
+graph TD
+    A[Start] --> B{Is it working?};
+    B -->|Yes| C[End];
+    B -->|No| D[Fix it!];
+    D --> B;
+```
+
+We can use this for sequence diagrams, entity relationship diagrams, and more to visually communicate our ideas.
+
+---
+
+## Temporary Mermaid ERD Example
+
+Here is an example of what a simple Entity Relationship Diagram looks like using Mermaid. It defines two entities, `USER` and `POST`, and the relationship between them.
+
+```mermaid
+erDiagram
+    USER {
+        int id PK
+        string name
+        string email
+    }
+
+    POST {
+        int id PK
+        string title
+        string content
+        int user_id FK
+    }
+
+    USER ||--o{ POST : "writes"
+```

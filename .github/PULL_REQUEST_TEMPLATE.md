@@ -22,3 +22,11 @@ assignees: ''
 ## Testing Done
 
 *   (A description of the testing that was done to verify the changes)
+
+---
+
+### 🤓 Learning Opportunities
+
+(Optional: If there are any interesting techniques, patterns, or decisions in this pull request that are worth highlighting, please mention them here.)
+
+*
