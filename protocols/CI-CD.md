@@ -22,3 +22,8 @@ The pipeline will be triggered on:
 
 *   Every push to the `main` branch.
 *   Every pull request targeting the `main` branch.
+
+## 4. Example Implementation
+
+For a concrete example of a CI pipeline using GitHub Actions, refer to:
+*   [GitHub Actions Example Workflow](protocols/examples/github-actions-example.yml)

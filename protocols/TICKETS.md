@@ -32,7 +32,7 @@ The workflow is as follows:
 
 *   **Status:** (Backlog | To Do | In Progress | Done)
 *   **Description:** (A brief description of the task)
-*   **Link to `TASK-EXECUTION.md`:** (Link to the corresponding task execution file)
+*   **Link to Task Execution File:** `workflows/TASK-[Ticket-Number].md` (Create this file from `workflows/TASK-EXECUTION-TEMPLATE.md` for your new ticket.)
 
 ## Tickets
 

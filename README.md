@@ -80,6 +80,10 @@ Once the files are integrated, you can proceed with the workflow:
 2.  **Create your first ticket:** Add a new task to the `protocols/TICKETS.md` file.
 3.  **Start the workflow:** Begin the process of planning, executing, and reviewing your tasks with your AI assistant.
 
+### Exploring Other Integration Methods
+
+For alternative or more advanced ways to integrate this workflow into your project, including using Git submodules or remote merges, please refer to [Alternative Integration Approaches](protocols/ALTERNATIVE-APPROACHES.md).
+
 ## An Evolving Workflow
 
 This workflow is designed to be adaptable. It can scale with your project from a small prototype to a full production application.
