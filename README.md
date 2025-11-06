@@ -21,7 +21,7 @@ This method uses `git archive` to copy the files from the template repository di
 1.  **Navigate to your project's root directory** (either a new, empty one or an existing one).
 2.  **Run the `git archive` command:** This will fetch the latest version of the workflow files and extract them into your current directory.
     ```bash
-    git archive --format=tar --remote=https://github.com/Alexei-AI-Workflow/alexei-ai-workflow.git main | tar -x
+    git archive --format=tar --remote=https://github.com/alexei-garrow/alexei-ai-workflow.git main | tar -x
     ```
 
 #### Breaking Down the Command
@@ -54,8 +54,9 @@ If you accidentally cloned this repository directly, here’s how to fix it by r
 
 1.  **Clone the repository** (this is the step you might have already done):
     ```bash
-    git clone https://github.com/Alexei-AI-Workflow/alexei-ai-workflow.git .
+    git clone https://github.com/alexei-garrow/alexei-ai-workflow.git .
     ```
+    *   **Note:** The dot `.` at the end clones the repository into the current directory.
 2.  **Remove the template's .git directory:**
     ```bash
     rm -rf .git

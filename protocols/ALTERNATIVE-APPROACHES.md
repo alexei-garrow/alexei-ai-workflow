@@ -17,7 +17,7 @@ Your main project will contain a reference to a specific commit in this workflow
 1.  **Navigate to your project's root directory.**
 2.  **Add the submodule:** This command clones the workflow repository into a new directory (e.g., `ai-workflow`) and creates a `.gitmodules` file to track it.
     ```bash
-    git submodule add https://github.com/Alexei-AI-Workflow/alexei-ai-workflow.git ai-workflow
+    git submodule add https://github.com/alexei-garrow/alexei-ai-workflow.git ai-workflow
     ```
 3.  **Commit the change:**
     ```bash
@@ -50,7 +50,7 @@ You are telling Git about another repository, pulling its files, and merging the
 1.  **Navigate to your existing project's directory.**
 2.  **Add the workflow repository as a remote:**
     ```bash
-    git remote add workflow-template https://github.com/Alexei-AI-Workflow/alexei-ai-workflow.git
+    git remote add workflow-template https://github.com/alexei-garrow/alexei-ai-workflow.git
     ```
 3.  **Fetch the files** from the remote:
     ```bash

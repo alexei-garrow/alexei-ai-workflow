@@ -1,4 +1,4 @@
-# Contributing to the Alexei AI Workflow
+# Contributing to the Alexei Ai Workflow
 
 We welcome contributions to improve this AI workflow template! By contributing, you help make this a more robust and useful tool for everyone.
 
@@ -25,4 +25,4 @@ We're looking for contributions that:
 
 We expect all contributors to adhere to a respectful and professional code of conduct. Please be considerate and constructive in your interactions.
 
-Thank you for helping to improve the Alexei AI Workflow!
+Thank you for helping to improve the Alexei Ai Workflow!

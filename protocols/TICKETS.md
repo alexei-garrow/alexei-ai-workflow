@@ -1,6 +1,6 @@
 # Gemini Ai Workflow Tickets
 
-This document outlines the workflow for our project. It's designed to ensure that we (the user and the AI) are always on the same page and that the AI never takes actions without explicit approval.
+This document serves as the central place to manage all project tasks. Below, you will find a template for creating new tickets and a suggestion for your first task.
 
 ## The Core Principle: Consult Before Acting
 
@@ -34,6 +34,9 @@ The workflow is as follows:
 *   **Description:** (A brief description of the task)
 *   **Link to Task Execution File:** `workflows/TASK-[Ticket-Number].md` (Create this file from `workflows/TASK-EXECUTION-TEMPLATE.md` for your new ticket.)
 
-## Tickets
+## Suggested First Ticket
 
-*   **Ticket #1:** Create the initial project structure and workflow files.
+*   **Ticket #1:** Fill out the `PLANNING.md` document to define the project's goals and scope.
+    *   **Status:** To Do
+    *   **Description:** Define the project's goals, scope, and technology stack in `protocols/PLANNING.md`.
+    *   **Link to Task Execution File:** `workflows/TASK-1.md` (Create this file from `workflows/TASK-EXECUTION-TEMPLATE.md`)
