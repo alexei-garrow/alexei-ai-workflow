@@ -12,14 +12,73 @@ As the technology evolves, this could be a very good way to go moving forward!
 
 ## Getting Started
 
-To start using this workflow in your project, follow these steps:
+To integrate this workflow, you should copy its files into your project's repository without bringing along this template's Git history. Here are the best methods to do that.
 
-1.  **Clone this repository:** Clone this repository. Then, copy its contents into the root of your project. For example, from your project's root directory, you can use: `cp -R /path/to/cloned/alexei-ai-workflow/* .`
-2.  **Review `protocols/PLANNING.md`:**
-    *   **For new projects:** Fill out the `PLANNING.md` document to define your project's goals, scope, and technology stack. Pay special attention to the "Workflow Adoption Strategy" section to set the right level of rigor for your project.
+### Method 1: For New or Existing Projects (Recommended)
+
+This method uses `git archive` to copy the files from the template repository directly into your project folder. It's clean, fast, and avoids creating temporary clones.
+
+1.  **Navigate to your project's root directory** (either a new, empty one or an existing one).
+2.  **Run the `git archive` command:** This will fetch the latest version of the workflow files and extract them into your current directory.
+    ```bash
+    git archive --format=tar --remote=https://github.com/Alexei-AI-Workflow/alexei-ai-workflow.git main | tar -x
+    ```
+
+#### Breaking Down the Command
+
+It might look complex, but this command is doing something simple. Let's break it down:
+
+*   `git archive --format=tar --remote=... main`
+    *   This part of the command tells Git to connect to the remote repository, find the `main` branch, and create a `tar` archive of all its files, as if you were creating a `.tar` (like a `.zip`) file.
+*   `|`
+    *   This is the "pipe" operator. It takes the output of the command on its left (the `tar` archive that `git archive` created in memory) and sends it as the input to the command on its right.
+*   `tar -x`
+    *   This is the standard `tar` utility. The `-x` flag tells it to **e**xtract the contents of the archive it receives from the pipe. The result is that all the files from the template are placed in your current directory.
+
+3.  **Commit the files** to your project:
+    ```bash
+    git add .
+    git commit -m "feat: Integrate AI workflow protocols"
+    git push
+    ```
+
+### Method 2: For New Projects (GitHub-Specific)
+
+If this repository is used as a GitHub Template, the easiest way to start a new project is by using the "Use this template" feature on the GitHub UI. This creates a new repository with a clean Git history for you.
+
+### Cleanup: If You Cloned Directly by Mistake
+
+If you accidentally cloned this repository directly, here’s how to fix it by removing the template's Git history.
+
+**This should only be done in a new, empty project folder.**
+
+1.  **Clone the repository** (this is the step you might have already done):
+    ```bash
+    git clone https://github.com/Alexei-AI-Workflow/alexei-ai-workflow.git .
+    ```
+2.  **Remove the template's .git directory:**
+    ```bash
+    rm -rf .git
+    ```
+3.  **Initialize a new Git repository** for your project:
+    ```bash
+    git init
+    ```
+4.  **Add and commit the files** to your new, clean project history:
+    ```bash
+    git add .
+    git commit -m "Initial commit with AI workflow structure"
+    ```
+
+### Next Steps
+
+Once the files are integrated, you can proceed with the workflow:
+
+1.  **Review `protocols/PLANNING.md`:**
+    *   **For new projects:** Fill out the `PLANNING.md` document to define your project's goals, scope, and technology stack.
     *   **For existing projects:** Follow the "Adapting for Existing Projects" guide in `PLANNING.md` to document your existing project.
-3.  **Create your first ticket:** Add a new task to the `TICKETS.md` file.
-4.  **Start the workflow:** Begin the process of planning, executing, and reviewing your tasks with your AI assistant.
+2.  **Create your first ticket:** Add a new task to the `protocols/TICKETS.md` file.
+3.  **Start the workflow:** Begin the process of planning, executing, and reviewing your tasks with your AI assistant.
 
 ## An Evolving Workflow
 
