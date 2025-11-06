@@ -1,4 +1,4 @@
-# Gemini Ai Workflow Tickets
+#  Ai Workflow Tickets
 
 This document serves as the central place to manage all project tasks. Below, you will find a template for creating new tickets and a suggestion for your first task.
 
